@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Lin_Lucy_Foolproof {
    public static void main(String [] args){
       //Declaration of variables
-      String numerator = "0", divisor; 
+      String numerator = "0", divisor; //numerator variable was initialized to avoid error
       double numeratorNumber, divisorNumber, quotient; 
       char firstLetter;
       boolean keepGoing = true;
