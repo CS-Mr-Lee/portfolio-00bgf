@@ -23,6 +23,7 @@ public class Lin_Lucy_SASTriangleSolver{
       sc.nextLine();
       System.out.println("Please input the angle between the two sides, in radians:");
       angle = sc.nextDouble();
+      sc.close();
       
       //Uses smallestAngle method and given values to print smallest angle 
       System.out.println("The smallest angle in this triangle is " + smallestAngle(side1, side2, angle) + " degrees.");
