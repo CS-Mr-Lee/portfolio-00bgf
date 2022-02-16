@@ -25,6 +25,7 @@ public class Lin_Lucy_GroceryItem {
       System.out.println("Please enter the price of this item (without the $ sign):");
       price2 = sc.nextDouble();
       sc.nextLine();
+      sc.close();
       
       //Prints top and bottom border using looped dashes and formatted list using printf
       for (int i = 0; i < 27; i++){
